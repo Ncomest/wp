@@ -1,4 +1,4 @@
 import { sum } from "./test";
 
 console.log("Hello gyes");
-console.log(sum(3, 5));
+console.log(sum(5, 5));
