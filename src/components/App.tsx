@@ -1,5 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import './App.scss'
 
 export const App = () => {
-  return <div>Hello Baby</div>;
+  const [counter, setCounter] = useState(0);
+
+  return (
+    <div>
+      <p>{counter}</p>
+      <button onClick={() => setCounter(counter + 1)}>click</button>
+    </div>
+  );
 };
